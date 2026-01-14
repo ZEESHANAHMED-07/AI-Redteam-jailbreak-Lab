@@ -56,3 +56,17 @@ This project is conducted strictly for research and educational purposes.
 - Findings are documented without promoting misuse
 
 See `ethics.md` for details.
+
+---
+
+## Key Findings Summary
+This project identifies several systemic weaknesses in conversational AI safety enforcement:
+
+- Authority-based and analytical framing can weaken refusal mechanisms
+- Per-turn safety evaluation fails to capture compositional risk across conversations
+- Partial disclosure pathways enable indirect reconstruction of disallowed understanding
+- Language and cultural framing introduce uneven safety coverage across English and Hindi
+- Intent trajectory is underweighted relative to individual prompt evaluation
+
+These findings illustrate why human-led red-teaming remains essential for identifying real-world safety risks that automated benchmarks often miss.
+
